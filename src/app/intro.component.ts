@@ -20,10 +20,22 @@ import { Component, OnInit } from '@angular/core';
     </div>
 
     <div style="text-align:center" class="content float-top">
-      <button style="text-align:center" type="button" class="btn btn-primary mb-3" popover="Angular 14.2 | bootstrap 5.2" container="body">
+    <span></span>
+      <button style="text-align:center" type="button" class="btn btn-primary mb-3" popover="Angular 14.2 | bootstrap 5.2" container="span">
         stack details
       </button>
+      
     </div>
+
+
+
+
+
+
+
+
+
+
 
     <div style="text-align:center" class="content footer">
       <img class="pr-4" width="100" alt="Angular Logo" src="assets/svg/angular-icon.svg">
