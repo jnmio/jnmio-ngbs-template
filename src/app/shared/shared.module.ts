@@ -19,9 +19,11 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { PopoverModule } from 'ngx-bootstrap/popover';
 import { TypeaheadModule } from 'ngx-bootstrap/typeahead';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 
-//import { CheckallDirective } from './directives/checkall/checkall.directive';
-//import { ScrollableDirective } from './directives/scrollable/scrollable.directive';
+
+import { CheckallDirective } from './directives/checkall/checkall.directive';
+import { ScrollableDirective } from './directives/scrollable/scrollable.directive';
 
 // https://angular.io/styleguide#!#04-10
 @NgModule({
@@ -45,11 +47,16 @@ import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
     TooltipModule.forRoot(),
     PopoverModule.forRoot(),
     TypeaheadModule.forRoot(),
+    InfiniteScrollModule
   ],
   providers: [],
   declarations: [
-   // CheckallDirective,
-    //ScrollableDirective,
+    CheckallDirective,
+    ScrollableDirective
+  
+    
+  
+    
   ],
   exports: [
     CommonModule,
@@ -72,8 +79,9 @@ import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
     TooltipModule,
     PopoverModule,
     TypeaheadModule,
-    //CheckallDirective,
-    //ScrollableDirective,
+    CheckallDirective,
+    ScrollableDirective,
+    
   ],
 })
 
