@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { IntroComponent } from './intro.component';
 import { ModalpopupComponent } from './modalpopup.component';
 import { InfiniteScrollComponent } from './infinite-scroll.component';
+import { LandingCoverComponent } from './landing-cover.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { InfiniteScrollComponent } from './infinite-scroll.component';
     AppComponent,
     IntroComponent,
     ModalpopupComponent,
-    InfiniteScrollComponent
+    InfiniteScrollComponent,
+    LandingCoverComponent
   ],
   imports: [
     SharedModule.forRoot(),

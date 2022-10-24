@@ -6,11 +6,10 @@ import { Component, OnInit } from '@angular/core';
 
 <div style="text-align:center" class="content">
       <h1 class="text-primary">
-        Welcome to {{title}}!
+        {{title}}!
       </h1><!-- https://materialdesignicons.com/tag/alpha-numeric -->
     </div>
     
-
     <div style="text-align:center" class="middle content">
       <img width="100" alt="Angular Logo" src="assets/svg/alpha-j-box-outline.svg">
       <img width="100" alt="Angular Logo" src="assets/svg/alpha-n-box-outline.svg">
@@ -36,11 +35,6 @@ import { Component, OnInit } from '@angular/core';
       <img class="pr-4 mx-5" width="75" alt="Angular Logo" src="assets/svg/ts-node.png">
       <img class="pr-4 mx-5" width="75" alt="Angular Logo" src="assets/svg/typescriptlang-icon.svg">
 </div>  
-
-
-
-<app-modalpopup></app-modalpopup>
-
   `,
   styles: [
 
