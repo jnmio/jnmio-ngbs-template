@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IntroComponent } from './intro.component';
 import { ModalpopupComponent } from './modalpopup.component';
-import { InfiniteScrollComponent } from './shared/infinite-scroll.component';
+import { InfiniteScrollComponent } from './infinite-scroll.component';
 
 
 @NgModule({
@@ -17,8 +17,9 @@ import { InfiniteScrollComponent } from './shared/infinite-scroll.component';
     InfiniteScrollComponent
   ],
   imports: [
-    BrowserModule,
     SharedModule.forRoot(),
+
+    BrowserModule,
     AppRoutingModule
     
   ],

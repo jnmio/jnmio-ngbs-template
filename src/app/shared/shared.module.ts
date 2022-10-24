@@ -31,6 +31,7 @@ import { ScrollableDirective } from './directives/scrollable/scrollable.directiv
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
+    InfiniteScrollModule,
     AccordionModule.forRoot(),
     AlertModule.forRoot(),
     ButtonsModule.forRoot(),
@@ -46,8 +47,7 @@ import { ScrollableDirective } from './directives/scrollable/scrollable.directiv
     TimepickerModule.forRoot(),
     TooltipModule.forRoot(),
     PopoverModule.forRoot(),
-    TypeaheadModule.forRoot(),
-    InfiniteScrollModule
+    TypeaheadModule.forRoot()
   ],
   providers: [],
   declarations: [
@@ -79,6 +79,7 @@ import { ScrollableDirective } from './directives/scrollable/scrollable.directiv
     TooltipModule,
     PopoverModule,
     TypeaheadModule,
+    InfiniteScrollModule,
     CheckallDirective,
     ScrollableDirective,
     
