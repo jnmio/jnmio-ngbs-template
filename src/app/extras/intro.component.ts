@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-intro',
   template: `
-
+<app-navbar></app-navbar>
 <div style="text-align:center" class="content">
       <h1 class="text-primary">
         {{title}}!

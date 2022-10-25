@@ -8,6 +8,7 @@ import { LandingCoverComponent } from './landing-cover.component';
 import { IntroComponent } from './intro.component';
 import { ModalpopupComponent } from './modalpopup.component';
 import { PagesComponent } from '../pages/pages.component';
+import { NavbarComponent } from './navbar.component';
 
 
 // const routes: Routes = [
@@ -56,6 +57,7 @@ export const routes: Routes = [
     IntroComponent,
     ModalpopupComponent,
     PagesComponent,
+    NavbarComponent
 ],
   imports: [
     SharedModule,
