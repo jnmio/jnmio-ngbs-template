@@ -1,5 +1,15 @@
 # JnmioNgbsTemplate
 
+
+todo
+lazy load aws s3 module.
+https://www.telerik.com/blogs/how-to-lazy-load-component-angular
+
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
 ## Development server
