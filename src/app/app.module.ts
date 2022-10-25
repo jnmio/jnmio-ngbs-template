@@ -1,28 +1,27 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { SharedModule } from './shared/shared.module';
+import { LayoutModule } from './layout/layout.module';
 import { ExtrasModule } from './extras/extras.module';
+import { PagesModule } from './pages/pages.module';
+
 import { AppRoutingModule } from './app-routing.module';
+import { WildcardRoutingModule } from './wildcard.module';
 
 import { AppComponent } from './app.component';
-import { IntroComponent } from './extras/intro.component';
-import { ModalpopupComponent } from './extras/modalpopup.component';
-import { InfiniteScrollComponent } from './extras/infinite-scroll.component';
-import { LandingCoverComponent } from './extras/landing-cover.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    IntroComponent,
-    ModalpopupComponent,
-    InfiniteScrollComponent,
-    LandingCoverComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,    
     SharedModule.forRoot(),
-    ExtrasModule
+    LayoutModule,
+    ExtrasModule,
+    PagesModule,
+    WildcardRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
