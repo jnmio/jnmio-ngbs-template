@@ -18,6 +18,11 @@ import { Component, OnInit } from '@angular/core';
           <li class="nav-item">
             <a class="nav-link" routerLink="/extras/cover">Cover</a>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/chat/chat">chat</a>
+          </li>
+
           <li class="nav-item">
             <a class="nav-link" routerLink="/extras/modal" tabindex="-1">Modal</a>
           </li>
